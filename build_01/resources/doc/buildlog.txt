@@ -1,0 +1,12 @@
+Admin build log:
+    - added errorhandling
+    - Classes
+    - dir resources/sql
+    - file tables_create.sql
+    - Added urlfunctions.php
+    - Added admin-include.php
+    - Restructured adminpanl
+
+
+To do:
+    - Fix logging for errorhandler
