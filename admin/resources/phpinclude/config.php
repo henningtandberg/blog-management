@@ -4,8 +4,8 @@
 
     define('DB_SERVER', 'localhost');
     define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', 'root'); //1JnK]Qf+pG5Q
-    define('DB_DATABASE', 'cms');
+    define('DB_PASSWORD', 'root');
+    define('DB_DATABASE', 'blog_db');
 
     $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 

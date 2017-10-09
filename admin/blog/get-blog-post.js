@@ -1,10 +1,3 @@
-/*
-    File:       blogfunc.js
-    Author:     Henning P. Tandberg
-    Synopsis:   functions for retrieving
-                parts of page.
-*/
-
 
 /*
 * Retrieves pages using a AJAX function.

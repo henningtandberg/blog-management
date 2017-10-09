@@ -1,5 +1,5 @@
 # Simple Blog Managment System
-## A simple content managment system made in PHP.
+## A simple blog managment system as a practice in PHP.
 
 ### How to use:
 **Set up database by running the tables_create
@@ -33,6 +33,12 @@ these steps:**
     b_date  DATE NOT NULL,
     PRIMARY KEY(b_id)
 );*
+
+### Dependencies
+- Bootstrap (minimal) .js and .css
+- JQuery (2.1.4 minimal or newer)
+- Summernote - Super Simple WYSIWYG editor
+- Webserver with PHP and MYSQL
 
 ### To do:
 - Fix logging for errorhandler

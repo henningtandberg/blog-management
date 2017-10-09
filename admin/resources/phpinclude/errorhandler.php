@@ -1,12 +1,5 @@
 <?php
-    /*
-        Author: Henning P. Tandberg
-        Date:   18.01.2017
-        Usage:  Custom error handling
-        Build:  0.5.1
-    */
-
-
+    
     /*
         Catches error. If over lvl 2 mailed to admin
         $errno:     Errornumber/level

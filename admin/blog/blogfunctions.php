@@ -1,14 +1,6 @@
 <?php
 
     /*
-        Author: Henning P. Tandberg
-        Date:   24.01.2017
-        Usage:  Custom error handling
-        Build:  0.5.2
-    */
-
-
-    /*
         Function returns the size of the blog
         (images + blog posts) in MB.
     */

@@ -1,10 +1,4 @@
 /*
-    Author:     Henning P. Tandberg
-    Date:       18.01.17
-    Database:   MySQL
-*/
-
-/*
     Create a Database and user first.
     Make sure to be using correctdatabase
     before execution of the script.
