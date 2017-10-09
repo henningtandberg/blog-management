@@ -1,5 +1,4 @@
 # Simple Blog Managment System
-## A simple blog managment system as a practice in PHP.
 
 ### How to use:
 **Set up database by running the tables_create
