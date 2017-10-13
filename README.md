@@ -45,10 +45,10 @@ these steps:**
     define('DB_DATABASE', '<NAME_OF_DATABASE>');
 
 ### Dependencies
-- Bootstrap (minimal) .js and .css
-- JQuery (2.1.4 minimal or newer)
-- Summernote - Super Simple WYSIWYG editor
-- Webserver with PHP and MYSQL
+    - Bootstrap (minimal) .js and .css
+    - JQuery (2.1.4 minimal or newer)
+    - Summernote - Super Simple WYSIWYG editor
+    - Webserver with PHP and MYSQL
 
 ### To do:
 #### Error handler
