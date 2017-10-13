@@ -48,7 +48,7 @@
 
         <li><a href=<?php echo $sitelink."home"; ?>>DASHBOARD</a></li>
 
-        <li><a href=<?php echo $sitelink."news"; ?>>NEWS</a></li>
+        <!--<li><a href=<?php //echo $sitelink."news"; ?>>NEWS</a></li>-->
 
         <li><!-- BLOGG START -->
             <a class="dropdown-toggle" data-toggle="dropdown" href="">BLOG
@@ -61,7 +61,7 @@
             </ul>
         </li><!-- BLOGG END -->
 
-        <li><a href=<?php echo $sitelink."pages"; ?>>PAGES</a></li>
+        <!--<li><a href=<?php //echo $sitelink."pages"; ?>>PAGES</a></li>-->
 
     </ul>
 </nav>
