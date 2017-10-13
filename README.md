@@ -8,6 +8,10 @@ script located at resources/sql/ ...**
 **or up database manually by following
 these steps:**
 
+0. Place the admin folder at a desired
+location accessable by the webserver.
+Example: /var/www/html/admin/
+
 1. Create at database in MYSQL
 *CREATE DATABASE <databasename>*
 
@@ -33,6 +37,13 @@ these steps:**
     PRIMARY KEY(b_id)
 );*
 
+5. Edit the configuration file located at
+admin/resources/phpinclude/config.php and edit:
+define('DB_SERVER', '<HOST_NAME_OF_WEBSERVER>');
+define('DB_USERNAME', '<DATABASE_USERNAME>');
+define('DB_PASSWORD', '<DATABASE_PASSWORD>');
+define('DB_DATABASE', '<NAME_OF_DATABASE>');
+
 ### Dependencies
 - Bootstrap (minimal) .js and .css
 - JQuery (2.1.4 minimal or newer)
@@ -40,4 +51,9 @@ these steps:**
 - Webserver with PHP and MYSQL
 
 ### To do:
-- Fix logging for errorhandler
+#### Error handler
+    - Fix logging for errorhandler
+#### Dashboard
+    - Show statistics
+#### Blog
+    - Delete files when blogpost is deleted or image is removed when editing
